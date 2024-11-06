@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0c0036;
+}
+
+header,
+footer {
+  padding: 2px;
+  background-color: #213150;
+}
+header img {
+  display: inline;
+  height: 100px;
+}
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-family: "Bungee", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header nav li a:hover {
+  color: #314e9e;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+header .container,
+section .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#history img {
+  height: 400px;
+}
+.singleColumnSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-top: 25px;
+}
+h3 {
+  font-family: "Bungee", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+form {
+  padding: 20px;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  resize: none;
+  height: 180px;
+}
+form button {
+  background-color: #314e9e;
+  color: #ecf0f1;
+  font-size: 25px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+form button:hover {
+  background-color: #182c61;
+  font-size: 30px;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #182c61;
+}
+
+footer {
+  padding: 10px;
+}
